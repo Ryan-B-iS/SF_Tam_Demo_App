@@ -40,15 +40,15 @@ To run the demo app, in Android Studio by clicking the green button:
 ### Scenario 1: Dynamic Segmentation
 
 - **Description:** This scenario examines how the app handles dynamic segmentation.
-- **Steps to Reproduce:** There are two buttons in the UI to select what segment you would like to be set into. This is __after__ initialization
-- **Expected Result:** The app should change segments and thus the connected waterfall. Noticed by messages in the log and textview changing.
+- **Steps to Reproduce:** There are two buttons in the UI to select what segment you want to be set into. This is __after__ initialization
+- **Expected Result:** The app should change segments and thus the connected waterfall. Notice messages in the log and text view changing.
 
-##To-do Work
+## To-do Work
 
 ### Scenario 2: APS Integration
 
 - **Description:** This scenario integrates Amazon publisher services.
-- **Expected Result:** With proper integration, APS should be available as a network. This integration is unique from all other networks because it requires exra lines....__add more info here__
+- **Expected Result:** APS should be available as a network with proper integration. This integration is unique from all other networks because it requires extra lines....__add more info here__
 
 ### Scenario 3: TapJoy OfferWall integration
 
