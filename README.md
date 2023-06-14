@@ -1,7 +1,5 @@
 # SF TAM Demo App:
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://semver.org)
 
 A demo app showcasing various edge case scenarios and how they are handled within the application.
 
@@ -45,50 +43,42 @@ npm install
 
 ## Usage
 
-To run the demo app, use the following command:
+To run the demo app, in Android Studio by clicking the green button:
 
-<code>
-npm start
-</code>
 
-Access the app in your browser at <code>http://localhost:3000</code>.
 
 ## Edge Case Scenarios
 
-### Scenario 1: Null Values
+### Scenario 1: Dynamic Segmentation
 
-- **Description:** This scenario examines how the app handles null values when processing user input.
-- **Steps to Reproduce:** Enter null values in the input fields and submit the form.
-- **Expected Result:** The app should display an error message indicating the presence of null values and prevent further processing.
+- **Description:** This scenario examines how the app handles dynamic segmentation.
+- **Steps to Reproduce:** There are two buttons in the UI to select what segment you would like to be set into. This is __after__ initialization
+- **Expected Result:** The app should change segments and thus the connected waterfall. Noticed by messages in the log and textview changing.
 
-### Scenario 2: Out of Bounds
+##To-do Work
 
-- **Description:** This scenario tests the app's behavior when encountering out of bounds errors.
-- **Steps to Reproduce:** Provide input that exceeds the allowed range or maximum limit.
-- **Expected Result:** The app should detect the out of bounds condition and display an appropriate error message, preventing any further action.
+### Scenario 2: APS Integration
 
-### Scenario 3: Network Errors
+- **Description:** This scenario integrates Amazon publisher services.
+- **Expected Result:** With proper integration, APS should be available as a network. This integration is unique from all other networks because it requires exra lines....__add more info here__
 
-- **Description:** This scenario simulates network errors during data fetching or communication with external APIs.
-- **Steps to Reproduce:** Disable the internet connection or use a tool to simulate network failures.
-- **Expected Result:** The app should gracefully handle network errors, display a meaningful error message to the user, and provide appropriate options for recovery or retry.
+### Scenario 3: TapJoy OfferWall integration
 
-### Scenario 4: Unauthorized Access
+- **Description:** IronSource offerwall is to be sunset at the end of 2023 Q4.
+- **Expected Result:** There will be a button to bring up the TapJoy OW
 
-- **Description:** This scenario explores how the app handles unauthorized access attempts.
-- **Steps to Reproduce:** Access restricted parts of the app without proper authentication or authorization.
-- **Expected Result:** The app should detect the unauthorized access attempt, redirect the user to a login page, or display an access denied message.
+### Scenario 4: Showing multiple Rewarded Videos in a row
 
-### Scenario 5: Data Validation
+- **Description:** fill info here
+- **Steps to Reproduce:** fill info here.
+- **Expected Result:** fill info here. 
 
-- **Description:** This scenario focuses on the app's data validation capabilities.
-- **Steps to Reproduce:** Enter invalid data that does not adhere to the defined validation rules.
-- **Expected Result:** The app should validate the data, identify any validation errors, and display meaningful error messages to guide the user in correcting the input.
+### Scenario 5: Scenario Title
 
+- **Description:** Description example
+- **Steps to Reproduce:** Repro steps 
+- **Expected Result:** Expected results
 ## Contributing
 
 Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) to contribute to this project.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
