@@ -10,36 +10,24 @@ A demo app showcasing various edge case scenarios and how they are handled withi
 - [Usage](#usage)
 - [Edge Case Scenarios](#edge-case-scenarios)
     - [Scenario 1: Dynamic Segmentation](#scenario-1-null-values)
-    - [Scenario 2: Out of Bounds](#scenario-2-out-of-bounds)
-    - [Scenario 3: Network Errors](#scenario-3-network-errors)
-    - [Scenario 4: Unauthorized Access](#scenario-4-unauthorized-access)
-    - [Scenario 5: Data Validation](#scenario-5-data-validation)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
-The Demo App is designed to illustrate how various edge cases are handled within the application. It provides a comprehensive understanding of how the app handles scenarios such as....
+The Demo App is designed to illustrate how various edge cases are handled within the application. It provides a comprehensive understanding of how the app handles scenarios such as...
 
 ## Installation
 
 1. Clone the repository:
 
 <code>
-git clone https://github.com/your-username/demo-app.git
+git clone [https://github.com/Ryan-B-iS/SF_Tam_Demo_App.git]
 </code>
 
-2. Navigate to the project directory:
+2. Build project to check for any incompatibilities with Android Studio:
 
-<code>
-cd demo-app
-</code>
 
-3. Install the dependencies:
-
-<code>
-npm install
-</code>
+3. Select any custom settings needed then run project:
 
 ## Usage
 
